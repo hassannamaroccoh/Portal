@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    margin-left: 10px;
+
+}
+h5{
+    color: darkblue;
+    font-size: 40px;
+    padding: 10px;
+}
+
+div{
+    display: grid;
+    gap: 30px;
+   
+}
+button {
+    width: 50vh;
+
+
+}
+.one{
+    background-color: darkblue;
+    color: white;
+}
+.two{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
